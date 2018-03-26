@@ -1,0 +1,17 @@
+[
+{
+  "modid": "addtech",
+  "name": "Add Tech",
+  "description": "Adds Additional Tech Into Minecraft",
+  "version": "1.0",
+  "credits": "Created by Thondar1990",
+  "logoFile": "",
+  "mcversion": "",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [ "Thondar1990" ],
+  "parent":"",
+  "screenshots": [],
+  "dependencies": []
+}
+]
