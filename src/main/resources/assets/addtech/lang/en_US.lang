@@ -1,0 +1,10 @@
+//Creative Tab
+itemGroup.addtech=AddTech
+
+//Items
+item.battery.name=Battery
+
+
+//Blocks
+tile.generator_coal.name=Coal Generator
+tile.energy_storage.name=Energy Storage:

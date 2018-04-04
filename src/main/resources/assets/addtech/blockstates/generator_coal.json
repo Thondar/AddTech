@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "normal": { "model": "addtech:generator_coal" }
+  }
+}

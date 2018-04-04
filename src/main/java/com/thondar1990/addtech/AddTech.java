@@ -1,7 +1,7 @@
 package com.thondar1990.addtech;
 
 import com.thondar1990.addtech.handler.ConfigurationHandler;
-import com.thondar1990.addtech.proxy.IProxy;
+import com.thondar1990.addtech.proxy.CommonProxy;
 import com.thondar1990.addtech.reference.Reference;
 import com.thondar1990.addtech.utility.LogHelper;
 import net.minecraftforge.fml.common.FMLCommonHandler;
@@ -15,11 +15,11 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 public class AddTech
 {
 
-    @Mod.Instance(Reference.MOD_ID)
+    @Mod.Instance
     public static AddTech instance;
 
     @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
-    public static IProxy proxy;
+    public static CommonProxy proxy;
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
